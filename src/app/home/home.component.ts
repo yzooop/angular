@@ -5,11 +5,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
 
-  constructor() { }
+export class HomeComponent {
+  isModalOpen1: boolean = false;
+  isModalOpen2: boolean = false;
 
-  ngOnInit(): void {
+  toggleModal1() {
+    this.isModalOpen1 = !this.isModalOpen1;
   }
-
+  toggleModal2() {
+    this.isModalOpen2 = !this.isModalOpen2;
+  }
 }
