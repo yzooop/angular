@@ -1,0 +1,17 @@
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+div ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+div ul li {
+  background-color: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
